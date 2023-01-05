@@ -5,7 +5,7 @@ body{
     background-color: lightgoldenrodyellow;
 }
 header{
-    border: solid black 1px;
+    border: solid black 2px;
     background-color: lightblue;
 }
 h1{
@@ -15,16 +15,45 @@ h1{
     font-weight: bold;
 }
 aside{
-    width: 33%;
+    width: 33.1%;
     height: 600px;
     background-color: lightblue;
+    border-left: solid black 2px;
 }
 div{
-    width: 33%;
+    width: 33.1%;
     height: 600px;
 }
 section{
     width: 33%;
     height: 600px;
     background-color: lightblue;
+    border-right: solid black 2px;
+}
+li{
+    font-size: larger;
+    font-weight: bold;
+    padding: 5px;
+}
+h2{
+    font-size: larger;
+    font-weight: bold;
+    padding: 5px;
+}
+p{
+    font-size: larger;
+    padding: 5px;
+}
+h3{
+    font-size: larger;
+    font-weight: bold;
+    padding: 15px;
+}
+footer{
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+    color: grey;
+    border: solid black 2px;
+    border-top: none;
 }
